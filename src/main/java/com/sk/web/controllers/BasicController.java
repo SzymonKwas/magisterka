@@ -12,10 +12,8 @@ public class BasicController {
     @GetMapping("/")
     public String main(Model model) {
         model.addAttribute("message", "dzien dobry");
-
         return "main";
     }
-
 
     @RequestMapping("/siemanko")
     public String index() {
