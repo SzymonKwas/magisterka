@@ -2,7 +2,7 @@ package com.sk.domain;
 
 import javax.persistence.*;
 @Entity
-@Table(name = "user_tbl")
+@Table(name = "user")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

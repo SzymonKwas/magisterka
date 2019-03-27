@@ -1,0 +1,19 @@
+changeSet:
+  id: 001-create-user-table
+  author: skwasnicki
+  changes:
+  - createTable:
+#      catalogName: cat
+      columns:
+      - column:
+          name: id
+          type: varchar2(255)
+      - column:
+            name: name
+            type: varchar(255)
+      - column:
+            name: age
+            type: integer(255)
+      remarks: A String
+      schemaName: public
+      tableName: user
